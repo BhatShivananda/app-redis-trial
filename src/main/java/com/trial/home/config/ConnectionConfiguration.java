@@ -33,7 +33,7 @@ public class ConnectionConfiguration {
             new JedisConnectionFactory( poolConfig() );     
         connectionFactory.setHostName( "localhost" );
         connectionFactory.setDatabase( Protocol.DEFAULT_DATABASE );
-        connectionFactory.setPort( Protocol.DEFAULT_PORT );        
+        connectionFactory.setPort( 22122 );        
         return connectionFactory;
     }
     
